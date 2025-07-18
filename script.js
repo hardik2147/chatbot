@@ -11,7 +11,7 @@ async function sendMessage() {
 
   input.value = "";
 
-  const response = await fetch("https://vercel.com/hardik2147s-projects/hardikchatbot/6snqfjNs2VBx53zWCX36rxKkETbd", {
+  const response = await fetch("https://hardikchatbot-git-main-hardik2147s-projects.vercel.app/", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ message })
